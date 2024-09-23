@@ -32,6 +32,7 @@ class NoteViewModel @Inject constructor(private val repository: NoteRepository):
                         Log.d("Empty","Empty List")
                     }else {
                         _noteList.value = listOfNotes
+                        Log.d("FAVS",":${noteList.value}")
                     }
 
 
